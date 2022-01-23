@@ -1,0 +1,23 @@
+
+.image-slider .img-info-1, .img-info-2, .img-info-3{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.img-info-1{
+    background-image: url(images/banner.png);
+}
+
+.image-slider .img-info-2{
+    background-image: url(images/banner-3.jpg);   
+}
+
+.image-slider .img-info-3{
+    background-image: url(images/banner-2.jpg);
+}
+
+.book-btn{
+    outline: 0;
+    background-color: white;
+    border: 0;
+}
