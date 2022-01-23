@@ -16,8 +16,19 @@
     background-image: url(images/banner-2.jpg);
 }
 
-.book-btn{
+.book-btn, .card-btn{
     outline: 0;
     background-color: white;
     border: 0;
+}
+ul{
+    list-style: none;
+}
+.card-row{
+    height: 700px;
+}
+.single-card{
+    height: 410px;
+    bottom: 50px;
+    border-radius: 50px;
 }
