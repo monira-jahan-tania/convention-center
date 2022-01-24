@@ -1,4 +1,4 @@
-body{
+.navigation{
     font-family: 'Poppins', sans-serif;
 }
 .image-slider .img-info-1, .img-info-2, .img-info-3{
@@ -25,6 +25,7 @@ body{
 }
 ul{
     list-style: none;
+    font-family: 'Poppins', sans-serif;
 }
 .single-card{
     bottom: 50px;
@@ -35,5 +36,11 @@ ul{
     visibility: visible;
     display: inline;
 }
-
+.contact{
+    background-color: rgb(71, 98, 133);
+}
+form textarea{
+    height: 100px;
+    resize: none;
+}
 
