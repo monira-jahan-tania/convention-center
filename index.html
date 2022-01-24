@@ -130,22 +130,16 @@
         </section>
     </header>
     <main>
-        <!-- Packages -->
 
+        <section>
+
+        </section>
+
+
+
+        <!-- Packages -->
         <section class="container mt-5">
             <h1 class="d-flex justify-content-center my-5 pb-5 text-primary">Our Packages</h1>
-
-            <div class="toast toast-notification" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header">
-                    <img src="..." class="rounded me-2" alt="...">
-                    <strong class="me-auto">Bootstrap</strong>
-                    <small class="text-muted">11 mins ago</small>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
-                <div class="toast-body">
-                    Hello, world! This is a toast message.
-                </div>
-            </div>
 
             <div class="row card-row my-5 g-4">
                 <div class="col-lg-3 col-md-6 col-sm-12">
@@ -228,8 +222,43 @@
                 </div>
 
             </div>
+            <div style="width: 250px" class="toast show position-absolute align-items-center justify-content-center"
+                role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex align-items-center justify-content-around">
+                    <div class="toast-body fs-6 d-flex ">
+                        <div class="text-primary"> <i class="fas fa-gift"></i></div>
+                        <div class="ps-2">
+                            <p>20% off on next booking</p>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
 
         </section>
+
+        <!-- bonus part and menu -->
+        <section class="container my-5">
+            <div class="row g-2 p-5 border border-4 border-primary food">
+                <div class=" col-lg-6 col-sm-12 d-flex align-items-center justify-content-center">
+                    <img style="width: 100%;" src="images/food.jpeg" alt="">
+                </div>
+                <div
+                    class="col-lg-6 col-sm-12 border border-4 border-primary food-info d-flex flex-column justify-content-center align-items-center">
+                    <h1>Eat & Drink</h1>
+                    <p>From world-class dining to fresh local cuisine, like the famous fish taco, and a thriving craft
+                        beer scene, San Diego is a dynamic foodie city.</p>
+                    <button type="button" class="book-btn text-white btn-primary fw-bold mb-5 ps-5 pe-5 btn-lg">More to
+                        Eat &
+                        Drink</button>
+
+                </div>
+            </div>
+
+        </section>
+
+
         <!-- Questions -->
         <section class="container">
             <h1 class="d-flex justify-content-center text-dark">Frequently Asked Questions</h1>
@@ -321,6 +350,8 @@
 
 
         </section>
+
+
     </main>
     <footer class="bg-dark p-5">
         <div class="row">
