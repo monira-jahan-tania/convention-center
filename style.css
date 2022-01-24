@@ -36,11 +36,12 @@ ul{
     visibility: visible;
     display: inline;
 }
-.contact{
-    background-color: rgb(71, 98, 133);
-}
+
 form textarea{
     height: 100px;
     resize: none;
+}
+footer{
+    overflow: hidden;
 }
 
