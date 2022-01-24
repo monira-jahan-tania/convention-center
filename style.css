@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .image-slider .img-info-1, .img-info-2, .img-info-3{
     background-position: center;
     background-size: cover;
@@ -16,7 +18,7 @@
     background-image: url(images/banner-2.jpg);
 }
 
-.book-btn, .card-btn{
+.book-btn, .card-btn, .qus-btn{
     outline: 0;
     background-color: white;
     border: 0;
@@ -24,11 +26,12 @@
 ul{
     list-style: none;
 }
-.card-row{
-    height: 700px;
-}
 .single-card{
-    height: 410px;
     bottom: 50px;
-    border-radius: 50px;
+
+}
+.toast-notification{
+    position: absolute;
+    visibility: visible;
+    display: inline;
 }
